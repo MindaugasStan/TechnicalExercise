@@ -1,0 +1,380 @@
+{
+	"PointSet": [
+		{
+			"PointSetID": "PS1",
+			"PointCoordinate": [
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC1",
+					"XAxis": "-2",
+					"YAxis": "-8"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC2",
+					"XAxis": "-2",
+					"YAxis": "-4"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC3",
+					"XAxis": "-2",
+					"YAxis": "-8"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC4",
+					"XAxis": "-2",
+					"YAxis": "0"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC5",
+					"XAxis": "-2",
+					"YAxis": "-8"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC6",
+					"XAxis": "-2",
+					"YAxis": "4"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC7",
+					"XAxis": "-2",
+					"YAxis": "-12"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC8",
+					"XAxis": "-2",
+					"YAxis": "-16"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC9",
+					"XAxis": "2",
+					"YAxis": "4"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC10",
+					"XAxis": "2",
+					"YAxis": "0"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC11",
+					"XAxis": "2",
+					"YAxis": "-4"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC12",
+					"XAxis": "2",
+					"YAxis": "-8"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC13",
+					"XAxis": "2",
+					"YAxis": "-12"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC14",
+					"XAxis": "2",
+					"YAxis": "-16"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC15",
+					"XAxis": "6",
+					"YAxis": "4"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC16",
+					"XAxis": "6",
+					"YAxis": "0"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC17",
+					"XAxis": "6",
+					"YAxis": "-4"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC18",
+					"XAxis": "6",
+					"YAxis": "-8"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC19",
+					"XAxis": "6",
+					"YAxis": "-12"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC20",
+					"XAxis": "6",
+					"YAxis": "-16"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC21",
+					"XAxis": "10",
+					"YAxis": "4"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC22",
+					"XAxis": "10",
+					"YAxis": "0"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC23",
+					"XAxis": "10",
+					"YAxis": "-4"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC24",
+					"XAxis": "10",
+					"YAxis": "-8"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC25",
+					"XAxis": "10",
+					"YAxis": "-12"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC26",
+					"XAxis": "10",
+					"YAxis": "-16"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC27",
+					"XAxis": "14",
+					"YAxis": "4"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC28",
+					"XAxis": "14",
+					"YAxis": "0"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC29",
+					"XAxis": "14",
+					"YAxis": "-4"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC30",
+					"XAxis": "14",
+					"YAxis": "-8"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC31",
+					"XAxis": "14",
+					"YAxis": "-12"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC32",
+					"XAxis": "14",
+					"YAxis": "-16"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC33",
+					"XAxis": "3",
+					"YAxis": "7"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC34",
+					"XAxis": "6",
+					"YAxis": "10"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC35",
+					"XAxis": "9",
+					"YAxis": "7"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC36",
+					"XAxis": "8",
+					"YAxis": "8"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC37",
+					"XAxis": "9",
+					"YAxis": "-9"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC38",
+					"XAxis": "8",
+					"YAxis": "-12"
+				},
+				{
+				    "PointSetID":"PS1",
+				    "PointCoordinateID":"PC39",
+					"XAxis": "5",
+					"YAxis": "-11"
+				}
+			]
+		},
+		{
+			"PointSetID": "PS2",
+			"PointCoordinate": [
+				{
+				    "PointSetID":"PS2",
+				    "PointCoordinateID":"PC40",
+					"XAxis": "0",
+					"YAxis": "0"
+				},
+				{
+				    "PointSetID":"PS2",
+				    "PointCoordinateID":"PC41",
+					"XAxis": "1",
+					"YAxis": "0"
+				},
+				{
+				    "PointSetID":"PS2",
+				    "PointCoordinateID":"PC42",
+					"XAxis": "-1",
+					"YAxis": "0"
+				},
+				{
+				    "PointSetID":"PS2",
+				    "PointCoordinateID":"PC43",
+					"XAxis": "0",
+					"YAxis": "1"
+				},
+				{
+				    "PointSetID":"PS2",
+				    "PointCoordinateID":"PC44",
+					"XAxis": "0",
+					"YAxis": "-1"
+				},
+				{
+				    "PointSetID":"PS2",
+				    "PointCoordinateID":"PC45",
+					"XAxis": "-3",
+					"YAxis": "2"
+				},
+				{
+				    "PointSetID":"PS2",
+				    "PointCoordinateID":"PC46",
+					"XAxis": "-2",
+					"YAxis": "5"
+				},
+				{
+				    "PointSetID":"PS2",
+				    "PointCoordinateID":"PC47",
+					"XAxis": "1",
+					"YAxis": "4"
+				},
+				{
+				    "PointSetID":"PS2",
+				    "PointCoordinateID":"PC48",
+					"XAxis": "2",
+					"YAxis": "3"
+				},
+				{
+				    "PointSetID":"PS2",
+				    "PointCoordinateID":"PC49",
+					"XAxis": "5",
+					"YAxis": "2"
+				},
+				{
+				    "PointSetID":"PS2",
+				    "PointCoordinateID":"PC50",
+					"XAxis": "4",
+					"YAxis": "-1"
+				},
+				{
+				    "PointSetID":"PS2",
+				    "PointCoordinateID":"PC51",
+					"XAxis": "3",
+					"YAxis": "-2"
+				},
+				{
+				    "PointSetID":"PS2",
+				    "PointCoordinateID":"PC52",
+					"XAxis": "2",
+					"YAxis": "-5"
+				},
+				{
+				    "PointSetID":"PS2",
+				    "PointCoordinateID":"PC53",
+					"XAxis": "-1",
+					"YAxis": "-4"
+				},
+				{
+				    "PointSetID":"PS2",
+				    "PointCoordinateID":"PC54",
+					"XAxis": "-2",
+					"YAxis": "-3"
+				},
+				{
+				    "PointSetID":"PS2",
+				    "PointCoordinateID":"PC55",
+					"XAxis": "-5",
+					"YAxis": "-2"
+				},
+				{
+				    "PointSetID":"PS2",
+				    "PointCoordinateID":"PC56",
+					"XAxis": "-4",
+					"YAxis": "1"
+				},
+				{
+				    "PointSetID":"PS2",
+				    "PointCoordinateID":"PC57",
+					"XAxis": "-3",
+					"YAxis": "-3"
+				},
+				{
+				    "PointSetID":"PS2",
+				    "PointCoordinateID":"PC58",
+					"XAxis": "2",
+					"YAxis": "-3"
+				},
+				{
+				    "PointSetID":"PS2",
+				    "PointCoordinateID":"PC59",
+					"XAxis": "2",
+					"YAxis": "2"
+				},
+				{
+				    "PointSetID":"PS2",
+				    "PointCoordinateID":"PC60",
+					"XAxis": "4",
+					"YAxis": "5"
+				},
+				{
+				    "PointSetID":"PS2",
+				    "PointCoordinateID":"PC61",
+					"XAxis": "4",
+					"YAxis": "-5"
+				}
+			]
+		}
+	]
+}

@@ -69,7 +69,7 @@ namespace DAL
             {
                 Result = result,
             });
-
+            SaveCalculationOutput(resultList);
             return resultList;
         }
     }

@@ -10,11 +10,9 @@ namespace API.Controllers
     [ApiController]
     public class SquaresController : ControllerBase
     {
-        private IPointsRepository _pointsRepository;
         private SquareCalculator _calculator;
-        public SquaresController(IPointsRepository pointsRepository, SquareCalculator calculator)
+        public SquaresController(SquareCalculator calculator)
         {
-            _pointsRepository = pointsRepository;
             _calculator = calculator;
         }
 
@@ -28,7 +26,7 @@ namespace API.Controllers
             }
             else
             {
-                var result = _pointsRepository.FormatResultList(square);
+                var result = _calculator.FormatResults(square);
                 return Ok(result);
             }
           

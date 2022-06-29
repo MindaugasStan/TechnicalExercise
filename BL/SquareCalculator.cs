@@ -23,10 +23,17 @@ namespace BL
             {
                 return null;
             }
-            var result = CountSquares(setID, pointset);
-            return result;
+
+                var result = CountSquares(setID, pointset);
+                return result;
 
         }
+
+        public List<Results> FormatResults(List<Square> result)
+        {
+            return _pointsRepository.FormatResultList(result);
+        }
+
         private static List<Square> CountSquares(string setID, PointSet pointList)
         {
             List<MeasuredSquare> result = new List<MeasuredSquare>();

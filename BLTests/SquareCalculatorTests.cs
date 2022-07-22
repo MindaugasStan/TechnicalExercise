@@ -28,44 +28,31 @@ namespace BLTests
                 {
                     PointSetID = "PS1",
                     PointCoordinateID = "1",
-                    XAxis = -1,
-                    YAxis = 1,
+                    XAxis = 0,
+                    YAxis = 0,
                 },
                 new Point()
                 {
                     PointSetID = "PS1",
                     PointCoordinateID = "2",
-                    XAxis = 1,
-                    YAxis = -1,
+                    XAxis = 0,
+                    YAxis = 2,
                 },
                 new Point()
                 {
                     PointSetID = "PS1",
                     PointCoordinateID = "3",
-                    XAxis = -1,
-                    YAxis = -1,
+                    XAxis = 2,
+                    YAxis = 2,
                 },
                 new Point()
                 {
                     PointSetID = "PS1",
                     PointCoordinateID = "4",
-                    XAxis = 1,
-                    YAxis = 1,
+                    XAxis = 2,
+                    YAxis = 0,
                 },
-                new Point()
-                {
-                    PointSetID = "PS1",
-                    PointCoordinateID = "5",
-                    XAxis = -1,
-                    YAxis = 2,
-                },
-                new Point()
-                {
-                    PointSetID = "PS1",
-                    PointCoordinateID = "6",
-                    XAxis = 1,
-                    YAxis = 2,
-                },
+                
             };
             PointSet pointSet = new PointSet()
             {

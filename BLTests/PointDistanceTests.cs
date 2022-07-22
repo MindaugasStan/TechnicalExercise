@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using BL;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -98,45 +99,5 @@ namespace BLTests
         }
     }
 
-    public class PointDistance
-    {
 
-        public PointDistance()
-        {
-        }
-
-        public PointDistance(int x, int y)
-        {
-            X = x;
-
-            Y = y;
-
-        }
-
-        public int X { get; set; }
-
-        public int Y { get; set; }
-
-        public PointDistance Rotate()
-        {
-            //var horizontal = Math.Abs(X) > Math.Abs(Y);
-            //var isPositive = X > 0 || Y > 0;
-            //var top = horizontal && isPositive;
-            //if(top)
-            //{
-            //    return new PointDistance(Y, -X);
-            //}
-            //var right = !horizontal && !isPositive;
-            //if(right)
-            //{
-            //    return new PointDistance(Y, X);
-            //}
-            //var bottom = horizontal && !isPositive;
-            //if(bottom)
-            //{
-            //    return new PointDistance(Y, -X);
-            //}
-            return new PointDistance(Y, -X);
-        }
-    }
 }

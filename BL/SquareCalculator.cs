@@ -19,13 +19,13 @@ namespace BL
         public List<Square> SquareCalculatorFunc(string setID)
         {
             var pointset = _pointsRepository.GetPointSet(setID);
-            if(pointset == null)
+            if (pointset == null)
             {
                 return null;
             }
 
-                var result = CountSquares(setID, pointset);
-                return result;
+            var result = CountSquares(setID, pointset);
+            return result;
 
         }
 
@@ -47,65 +47,45 @@ namespace BL
             for (int i = 0; i < pointSet.Count; i++)
             {
                 var topLeft = pointSet[i];
-                for (int j = 0; j < pointSet.Count; j++)
+                for (int j = i + 1; j < pointSet.Count; j++)
                 {
-                    if (i == j)
-                    {
-                        continue;
-                    }
 
                     var topRight = pointSet[j];
 
-                    if (topLeft.XAxis == topRight.XAxis && topLeft.YAxis == topRight.YAxis)
+                    var distanceMatcher = new DistanceMatcher(topLeft, topRight);
+
+                    for (int k = j + 1; k < pointSet.Count; k++)
                     {
-                        continue;
+
+                        var bottomRight = pointSet[k];
+                        if (!distanceMatcher.GoodNextPoint(bottomRight))
+                        {
+                            continue;
+                        }
+                        for (int l = k + 1; l < pointSet.Count; l++)
+                        {
+
+                            var bottomLeft = pointSet[l];
+                            var distanceMatcher1 = new DistanceMatcher(topRight, bottomRight);
+                            if (distanceMatcher1.GoodNextPoint(bottomLeft))
+                            {
+                                length = topRight.XAxis - topLeft.XAxis;
+                                result.Add(new MeasuredSquare()
+                                {
+                                    Square = new Square() { PointCoordinate = new() { topLeft, topRight, bottomRight, bottomLeft } },
+                                    Length = length
+                                });
+
+                            }
+                        }
+
                     }
 
-                        for (int k = 0; k < pointSet.Count; k++)
-                        {
-                            if (i == j || j == k || i == k)
-                            {
-                                continue;
-
-                            }
-
-                            var bottomRight = pointSet[k];
-                        var firstDistance = distSquare(topLeft, topRight);
-                        distances.Add(distSquare(topLeft, topRight));
-                        distances.Add(distSquare(topLeft, bottomRight));
-                        distances.Add(distSquare(topRight, bottomRight));
-                            if (distances.All(x => x == firstDistance))
-                            {
-                                for (int l = 0; l < pointSet.Count; l++)
-                                {
-                                    if (i == j || j == k || k == l || i == l)
-                                    {
-                                        continue;
-                                    }
-
-                                    var bottomLeft = pointSet[l];
-                                distances.Add(distSquare(bottomLeft, topLeft));
-                                distances.Add(distSquare(bottomLeft, topRight));
-                                distances.Add(distSquare(bottomLeft, bottomRight));
-                                if (distances.All(x => x == firstDistance))
-                                        {
-                                            length = topRight.XAxis - topLeft.XAxis;
-                                            result.Add(new MeasuredSquare()
-                                            {
-                                                Square = new Square() { PointCoordinate = new() { topLeft, topRight, bottomRight, bottomLeft } },
-                                                Length = length
-                                            });
-
-                                        }
-                                }
-                            }
-
-                        }
-                    
                 }
             }
             return result.OrderBy(x => x.Length)
-                 .Select((x, index) => {
+                 .Select((x, index) =>
+                 {
                      x.Square.SquareSeq = index + 1;
                      return x.Square;
                  })
@@ -115,7 +95,7 @@ namespace BL
         private static double distSquare(Point p, Point q)
         {
             return Math.Sqrt(Math.Pow(p.XAxis - q.XAxis, 2) + Math.Pow(p.YAxis - q.YAxis, 2));
-            
+
         }
         //private static bool isSquare(Point p1, Point p2, Point p3, Point p4)
         //{

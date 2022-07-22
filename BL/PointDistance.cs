@@ -30,23 +30,6 @@ namespace BL
 
         public PointDistance Rotate()
         {
-            //var horizontal = Math.Abs(X) > Math.Abs(Y);
-            //var isPositive = X > 0 || Y > 0;
-            //var top = horizontal && isPositive;
-            //if(top)
-            //{
-            //    return new PointDistance(Y, -X);
-            //}
-            //var right = !horizontal && !isPositive;
-            //if(right)
-            //{
-            //    return new PointDistance(Y, X);
-            //}
-            //var bottom = horizontal && !isPositive;
-            //if(bottom)
-            //{
-            //    return new PointDistance(Y, -X);
-            //}
             return new PointDistance(Y, -X);
         }
 
